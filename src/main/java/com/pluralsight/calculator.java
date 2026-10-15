@@ -33,15 +33,19 @@ public class calculator {
         switch (mathOperation) {
             case "A":
                 System.out.println("You selected Add!");
+                System.out.printf("%d + %d = %d%n", firstNumber, secondNumber, (firstNumber + secondNumber));
                 break;
             case "S":
                 System.out.println("You selected Subtract!");
+                System.out.printf("%d - %d = %d%n", firstNumber, secondNumber, (firstNumber - secondNumber));
                 break;
             case "M":
                 System.out.println("You selected Multiply!");
+                System.out.printf("%d * %d = %d%n", firstNumber, secondNumber, (firstNumber * secondNumber));
                 break;
             case "D":
                 System.out.println("You selected Divide!");
+                System.out.printf("%d / %d = %d%n", firstNumber, secondNumber, (firstNumber / secondNumber));
                 break;
             default:
                 System.out.println("Invalid option. Try again!");
