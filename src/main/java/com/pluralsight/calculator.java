@@ -47,6 +47,22 @@ public class calculator {
                 System.out.println("You selected Divide!");
                 System.out.printf("%d / %d = %d%n", firstNumber, secondNumber, (firstNumber / secondNumber));
                 break;
+            case "ADD":
+                System.out.println("You selected Add!");
+                System.out.printf("%d + %d = %d%n", firstNumber, secondNumber, (firstNumber + secondNumber));
+                break;
+            case "SUBTRACT":
+                System.out.println("You selected Subtract!");
+                System.out.printf("%d - %d = %d%n", firstNumber, secondNumber, (firstNumber - secondNumber));
+                break;
+            case "MULTIPLY":
+                System.out.println("You selected Multiply!");
+                System.out.printf("%d * %d = %d%n", firstNumber, secondNumber, (firstNumber * secondNumber));
+                break;
+            case "DIVIDE":
+                System.out.println("You selected Divide!");
+                System.out.printf("%d / %d = %d%n", firstNumber, secondNumber, (firstNumber / secondNumber));
+                break;
             default:
                 System.out.println("Invalid option. Try again!");
                 break;
