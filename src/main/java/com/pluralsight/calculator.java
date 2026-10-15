@@ -1,6 +1,5 @@
 package com.pluralsight;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class calculator {
@@ -47,6 +46,8 @@ public class calculator {
                 System.out.println("You selected Divide!");
                 System.out.printf("%d / %d = %d%n", firstNumber, secondNumber, (firstNumber / secondNumber));
                 break;
+
+            // incase users want to input the word itself
             case "ADD":
                 System.out.println("You selected Add!");
                 System.out.printf("%d + %d = %d%n", firstNumber, secondNumber, (firstNumber + secondNumber));
@@ -63,6 +64,8 @@ public class calculator {
                 System.out.println("You selected Divide!");
                 System.out.printf("%d / %d = %d%n", firstNumber, secondNumber, (firstNumber / secondNumber));
                 break;
+
+            // incase user input is invalid
             default:
                 System.out.println("Invalid option. Try again!");
                 break;
